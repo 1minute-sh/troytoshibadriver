@@ -71,9 +71,6 @@
 
 *ShortNickName: "TOSHIBA ColorMFP"
 
-*TTLoadPDEs: "PaperFeed,PrintModeEBX,Finishing,ColorSettings1EBX,ColorSettings2EBX,CoverPages,Booklet,EFiling,Watermark"
-*cupsCommands: "ReportLevels PrintSelfTestPage com.toshiba.ColourProfiles.update com.toshiba.EFiling.update com.toshiba.EFiling.checkPassword"
-*cupsICCProfile ../Default: "/System/Library/ColorSync/Profiles/sRGB Profile.icc"
 *cupsSNMPSupplies: False
 *cupsPJLDisplay: "omit"
 *cupsPJLCharset: "UTF-8"
