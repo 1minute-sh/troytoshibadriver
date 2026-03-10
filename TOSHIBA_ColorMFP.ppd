@@ -1186,11 +1186,6 @@
 *End
 *CloseUI: *Collate
 
-
-
-*OpenGroup: FinishingOptions/Finishing
-
-
 *%===== Destination ==================================
 *OpenUI *OutputBin/Destination: PickOne
 *OrderDependency: 37 AnySetup *OutputBin
@@ -1243,8 +1238,6 @@
 *Folding False/Off: ""
 *Folding True/On: "<</TSBPrivate (DSSC PRINT FOLD=CENTER) >> setpagedevice"
 *CloseUI: *Folding
-
-*CloseGroup: FinishingOptions
 
 *OpenGroup: PrintingModes/Printing Modes
 
