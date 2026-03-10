@@ -1,5 +1,4 @@
 *PPD-Adobe: "4.3"
-*cupsLanguages: "da de en es fi fr it ja nl no pl pt ru sv zh_CN zh_TW"
 *% Adobe Systems PostScript(R) Printer Description File
 *% Copyright (c) 2010-2023 Toshiba Tec Corporation
 *% 
@@ -72,9 +71,6 @@
 
 *ShortNickName: "TOSHIBA ColorMFP"
 
-*APPrinterIconPath: "/Library/Printers/toshiba/Icons/ColorMFP.icns"
-*APDialogExtension: "/Library/Printers/toshiba/PDEs/estColorMFP-X7-pdes.bundle"
-*APAutoSetupTool: "/Library/Printers/toshiba/filter/estColorMFP-X7-autosetuptool"
 *TTLoadPDEs: "PaperFeed,PrintModeEBX,Finishing,ColorSettings1EBX,ColorSettings2EBX,CoverPages,Booklet,EFiling,Watermark"
 *cupsCommands: "ReportLevels PrintSelfTestPage com.toshiba.ColourProfiles.update com.toshiba.EFiling.update com.toshiba.EFiling.checkPassword"
 *cupsICCProfile ../Default: "/System/Library/ColorSync/Profiles/sRGB Profile.icc"
