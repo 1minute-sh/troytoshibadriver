@@ -1214,20 +1214,20 @@
 
 
 *%===== Stapling ====================================
-*OpenUI *Stapling/Stapling:  PickOne
-*OrderDependency: 39 AnySetup *Stapling
-*DefaultStapling: None
-*Stapling None/Off: "<</TSBPrivate (DSSC PRINT STAPLING=0) >> setpagedevice"
-*Stapling UL/Upper Left (Portrait) / Upper Right (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=769) >> setpagedevice"
-*Stapling ML/Middle Left (Portrait) / Middle Top (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=2) >> setpagedevice"
-*Stapling LL/Lower Left (Portrait) / Upper Left (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=33027) >> setpagedevice"
-*Stapling UR/Upper Right (Portrait) / Lower Right (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=387) >> setpagedevice"
-*Stapling MR/Middle Right (Portrait) / Middle Bottom (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=130) >> setpagedevice"
-*Stapling LR/Lower Right (Portrait) / Lower Left (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=33665) >> setpagedevice"
-*Stapling MT/Middle Top (Portrait) / Middle Right (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=512) >> setpagedevice"
-*Stapling MB/Middle Bottom (Portrait) / Middle Left (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=33280) >> setpagedevice"
-*Stapling SS/Saddle Stitch (Portrait) / Saddle Stitch (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=1028) >> setpagedevice"
-*CloseUI: *Stapling
+*OpenUI *StapleLocation/Stapling:  PickOne
+*OrderDependency: 39 AnySetup *StapleLocation
+*DefaultStapleLocation: None
+*StapleLocation None/Off: "<</TSBPrivate (DSSC PRINT STAPLING=0) >> setpagedevice"
+*StapleLocation UL/Upper Left (Portrait) / Upper Right (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=769) >> setpagedevice"
+*StapleLocation ML/Middle Left (Portrait) / Middle Top (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=2) >> setpagedevice"
+*StapleLocation LL/Lower Left (Portrait) / Upper Left (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=33027) >> setpagedevice"
+*StapleLocation UR/Upper Right (Portrait) / Lower Right (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=387) >> setpagedevice"
+*StapleLocation MR/Middle Right (Portrait) / Middle Bottom (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=130) >> setpagedevice"
+*StapleLocation LR/Lower Right (Portrait) / Lower Left (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=33665) >> setpagedevice"
+*StapleLocation MT/Middle Top (Portrait) / Middle Right (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=512) >> setpagedevice"
+*StapleLocation MB/Middle Bottom (Portrait) / Middle Left (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=33280) >> setpagedevice"
+*StapleLocation SS/Saddle Stitch (Portrait) / Saddle Stitch (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=1028) >> setpagedevice"
+*CloseUI: *StapleLocation
 
 *%===== Folding ============================
 *% This option allows the user to turn Folding feature On and Off.  
