@@ -1200,25 +1200,23 @@
 *OutputBin JobSeparatorLower/Job Separator Lower: "<< /OutputPosition 7 >> setpagedevice"
 *CloseUI: *OutputBin
 
-*OpenGroup: Finishing/Finishing Options
+*OpenGroup: CustomOptions/Custom Setup
 
-*%===== Stapling ====================================
-*OpenUI *ToshibaStaple/Staple Document: PickOne
-*OrderDependency: 39 AnySetup *ToshibaStaple
-*DefaultToshibaStaple: None
-*ToshibaStaple None/Off: "<</TSBPrivate (DSSC PRINT STAPLING=0) >> setpagedevice"
-*ToshibaStaple UL/Top Left: "<</TSBPrivate (DSSC PRINT STAPLING=769) >> setpagedevice"
-*ToshibaStaple ML/Dual Left: "<</TSBPrivate (DSSC PRINT STAPLING=2) >> setpagedevice"
-*ToshibaStaple LL/Bottom Left: "<</TSBPrivate (DSSC PRINT STAPLING=33027) >> setpagedevice"
-*ToshibaStaple UR/Top Right: "<</TSBPrivate (DSSC PRINT STAPLING=387) >> setpagedevice"
-*ToshibaStaple MR/Dual Right: "<</TSBPrivate (DSSC PRINT STAPLING=130) >> setpagedevice"
-*ToshibaStaple LR/Bottom Right: "<</TSBPrivate (DSSC PRINT STAPLING=33665) >> setpagedevice"
-*ToshibaStaple MT/Dual Top: "<</TSBPrivate (DSSC PRINT STAPLING=512) >> setpagedevice"
-*ToshibaStaple MB/Dual Bottom: "<</TSBPrivate (DSSC PRINT STAPLING=33280) >> setpagedevice"
-*CloseUI: *ToshibaStaple
+*OpenUI *ForceStaple/Staple: PickOne
+*OrderDependency: 10 AnySetup *ForceStaple
+*DefaultForceStaple: None
+*ForceStaple None/None: ""
+*ForceStaple UL/Top Left: "<</TSBPrivate (DSSC PRINT STAPLING=769) >> setpagedevice"
+*ForceStaple ML/Dual Left: "<</TSBPrivate (DSSC PRINT STAPLING=2) >> setpagedevice"
+*ForceStaple LL/Bottom Left: "<</TSBPrivate (DSSC PRINT STAPLING=33027) >> setpagedevice"
+*ForceStaple UR/Top Right: "<</TSBPrivate (DSSC PRINT STAPLING=387) >> setpagedevice"
+*ForceStaple MR/Dual Right: "<</TSBPrivate (DSSC PRINT STAPLING=130) >> setpagedevice"
+*ForceStaple LR/Bottom Right: "<</TSBPrivate (DSSC PRINT STAPLING=33665) >> setpagedevice"
+*ForceStaple MT/Dual Top: "<</TSBPrivate (DSSC PRINT STAPLING=512) >> setpagedevice"
+*ForceStaple MB/Dual Bottom: "<</TSBPrivate (DSSC PRINT STAPLING=33280) >> setpagedevice"
+*CloseUI: *ForceStaple
 
-*CloseGroup: Finishing
-
+*CloseGroup: CustomOptions
 
 *OpenGroup: PrintingModes/Printing Modes
 
