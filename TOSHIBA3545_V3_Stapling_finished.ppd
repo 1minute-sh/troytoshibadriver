@@ -1203,19 +1203,19 @@
 *OpenGroup: Finishing/Finishing Options
 
 *%===== Stapling ====================================
-*OpenUI *StapleLocation/Stapling: PickOne
-*OrderDependency: 39 AnySetup *StapleLocation
-*DefaultStapleLocation: None
-*StapleLocation None/Off: "<</TSBPrivate (DSSC PRINT STAPLING=0) >> setpagedevice"
-*StapleLocation UL/Top Left: "<</TSBPrivate (DSSC PRINT STAPLING=769) >> setpagedevice"
-*StapleLocation ML/Dual Left: "<</TSBPrivate (DSSC PRINT STAPLING=2) >> setpagedevice"
-*StapleLocation LL/Bottom Left: "<</TSBPrivate (DSSC PRINT STAPLING=33027) >> setpagedevice"
-*StapleLocation UR/Top Right: "<</TSBPrivate (DSSC PRINT STAPLING=387) >> setpagedevice"
-*StapleLocation MR/Dual Right: "<</TSBPrivate (DSSC PRINT STAPLING=130) >> setpagedevice"
-*StapleLocation LR/Bottom Right: "<</TSBPrivate (DSSC PRINT STAPLING=33665) >> setpagedevice"
-*StapleLocation MT/Dual Top: "<</TSBPrivate (DSSC PRINT STAPLING=512) >> setpagedevice"
-*StapleLocation MB/Dual Bottom: "<</TSBPrivate (DSSC PRINT STAPLING=33280) >> setpagedevice"
-*CloseUI: *StapleLocation
+*OpenUI *ToshibaStaple/Staple Document: PickOne
+*OrderDependency: 39 AnySetup *ToshibaStaple
+*DefaultToshibaStaple: None
+*ToshibaStaple None/Off: "<</TSBPrivate (DSSC PRINT STAPLING=0) >> setpagedevice"
+*ToshibaStaple UL/Top Left: "<</TSBPrivate (DSSC PRINT STAPLING=769) >> setpagedevice"
+*ToshibaStaple ML/Dual Left: "<</TSBPrivate (DSSC PRINT STAPLING=2) >> setpagedevice"
+*ToshibaStaple LL/Bottom Left: "<</TSBPrivate (DSSC PRINT STAPLING=33027) >> setpagedevice"
+*ToshibaStaple UR/Top Right: "<</TSBPrivate (DSSC PRINT STAPLING=387) >> setpagedevice"
+*ToshibaStaple MR/Dual Right: "<</TSBPrivate (DSSC PRINT STAPLING=130) >> setpagedevice"
+*ToshibaStaple LR/Bottom Right: "<</TSBPrivate (DSSC PRINT STAPLING=33665) >> setpagedevice"
+*ToshibaStaple MT/Dual Top: "<</TSBPrivate (DSSC PRINT STAPLING=512) >> setpagedevice"
+*ToshibaStaple MB/Dual Bottom: "<</TSBPrivate (DSSC PRINT STAPLING=33280) >> setpagedevice"
+*CloseUI: *ToshibaStaple
 
 *CloseGroup: Finishing
 
