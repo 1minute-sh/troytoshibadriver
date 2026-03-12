@@ -1200,31 +1200,24 @@
 *OutputBin JobSeparatorLower/Job Separator Lower: "<< /OutputPosition 7 >> setpagedevice"
 *CloseUI: *OutputBin
 
+*OpenGroup: Finishing/Finishing Options
+
 *%===== Stapling ====================================
 *OpenUI *StapleLocation/Stapling: PickOne
 *OrderDependency: 39 AnySetup *StapleLocation
 *DefaultStapleLocation: None
 *StapleLocation None/Off: "<</TSBPrivate (DSSC PRINT STAPLING=0) >> setpagedevice"
-*StapleLocation UL/Upper Left (Portrait) / Upper Right (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=769) >> setpagedevice"
-*StapleLocation ML/Middle Left (Portrait) / Middle Top (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=2) >> setpagedevice"
-*StapleLocation LL/Lower Left (Portrait) / Upper Left (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=33027) >> setpagedevice"
-*StapleLocation UR/Upper Right (Portrait) / Lower Right (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=387) >> setpagedevice"
-*StapleLocation MR/Middle Right (Portrait) / Middle Bottom (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=130) >> setpagedevice"
-*StapleLocation LR/Lower Right (Portrait) / Lower Left (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=33665) >> setpagedevice"
-*StapleLocation MT/Middle Top (Portrait) / Middle Right (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=512) >> setpagedevice"
-*StapleLocation MB/Middle Bottom (Portrait) / Middle Left (Landscape): "<</TSBPrivate (DSSC PRINT STAPLING=33280) >> setpagedevice"
+*StapleLocation UL/Top Left: "<</TSBPrivate (DSSC PRINT STAPLING=769) >> setpagedevice"
+*StapleLocation ML/Dual Left: "<</TSBPrivate (DSSC PRINT STAPLING=2) >> setpagedevice"
+*StapleLocation LL/Bottom Left: "<</TSBPrivate (DSSC PRINT STAPLING=33027) >> setpagedevice"
+*StapleLocation UR/Top Right: "<</TSBPrivate (DSSC PRINT STAPLING=387) >> setpagedevice"
+*StapleLocation MR/Dual Right: "<</TSBPrivate (DSSC PRINT STAPLING=130) >> setpagedevice"
+*StapleLocation LR/Bottom Right: "<</TSBPrivate (DSSC PRINT STAPLING=33665) >> setpagedevice"
+*StapleLocation MT/Dual Top: "<</TSBPrivate (DSSC PRINT STAPLING=512) >> setpagedevice"
+*StapleLocation MB/Dual Bottom: "<</TSBPrivate (DSSC PRINT STAPLING=33280) >> setpagedevice"
 *CloseUI: *StapleLocation
 
-*% ===== CUPS IPP Finishing Mappings for Chrome OS =====
-*cupsIPPFinishings 3/None: "*StapleLocation None"
-*cupsIPPFinishings 20/Staple Top Left: "*StapleLocation UL"
-*cupsIPPFinishings 21/Staple Bottom Left: "*StapleLocation LL"
-*cupsIPPFinishings 22/Staple Top Right: "*StapleLocation UR"
-*cupsIPPFinishings 23/Staple Bottom Right: "*StapleLocation LR"
-*cupsIPPFinishings 28/Staple Dual Left: "*StapleLocation ML"
-*cupsIPPFinishings 29/Staple Dual Top: "*StapleLocation MT"
-*cupsIPPFinishings 30/Staple Dual Right: "*StapleLocation MR"
-*cupsIPPFinishings 31/Staple Dual Bottom: "*StapleLocation MB"
+*CloseGroup: Finishing
 
 
 *OpenGroup: PrintingModes/Printing Modes
